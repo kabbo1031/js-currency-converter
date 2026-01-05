@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h2>Currency Converter</h2>
+
+    <input id="amount" type="number" placeholder="Amount">
+    
+    <select id="from">
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+      <option value="BDT">BDT</option>
+    </select>
+
+    <select id="to">
+      <option value="BDT">BDT</option>
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+    </select>
+
+    <button onclick="convert()">Convert</button>
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
